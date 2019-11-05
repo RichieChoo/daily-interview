@@ -1,0 +1,24 @@
+{
+	"name": "daily-interview",
+	"version": "1.0.0",
+	"description": "One question per day",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"gg": "node .generate.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RichieChoo/daily-interview.git"
+	},
+	"author": "RichieChoo",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/RichieChoo/daily-interview/issues"
+	},
+	"homepage": "https://github.com/RichieChoo/daily-interview#readme",
+	"dependencies": {
+		"mkdirp": "^0.5.1",
+		"moment": "^2.24.0"
+	}
+}
